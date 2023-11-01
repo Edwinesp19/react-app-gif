@@ -9,13 +9,18 @@
   
   input {
     background-color: white;
-    border-radius: 5px;
-    border: 1px solid rgb(97, 32, 158);
+    border-radius: 30px;
+    border: 2px solid white;
     color: black;
     font-size: 1.2rem;
     outline: none;
     padding: 10px 15px;
     width: 100%;
+    transition: all ease-in-out 50ms;
+}
+input:focus {
+    border: 2px solid black;
+
   }
   
   h2 {
